@@ -1,0 +1,1 @@
+python train.py --name watercolor1024 --dataset_mode custom   --label_dir ~/watercolor/label --image_dir ~/watercolor/image --label_nc 182 --load_size 1024 --crop_size 1024 --preprocess_mode scale_width --no_instance --batchSize 3 --gpu_ids 0,1,2 --display_freq 200 --continue_train

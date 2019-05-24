@@ -17,7 +17,7 @@ opt = TestOptions().parse()
 dataloader = data.create_dataloader(opt)
 
 model = Pix2PixModel(opt)
-#model.eval()
+model.eval()
 
 visualizer = Visualizer(opt)
 

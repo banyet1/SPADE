@@ -1,0 +1,1 @@
+python train.py --name landscape512 --dataset_mode custom --label_dir ~/flickr_png/label --image_dir ~/flickr_png/image --label_nc 182 --no_instance --batchSize 2 --gpu_ids 0,1 --display_freq 200 --continue_train
