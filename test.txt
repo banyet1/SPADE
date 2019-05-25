@@ -1,1 +1,2 @@
 python test.py --name landscape512 --dataset_mode custom --dataroot ~/flickr_png/validation/ --how_many 2 --image_dir ~/flickr_png/image/ --label_dir ~/flickr_png/label/ --label_nc 182 --no_instance --load_size 512 --crop_size 512
+python test.py --name watercolor --dataset_mode custom --dataroot ~/watercolor/validation --how_many 1000 --image_dir ~/watercolor/image/ --label_dir ~/watercolor/label/ --label_nc 182 --no_instance --load_size 512 --crop_size 512
